@@ -1,7 +1,6 @@
 "use client"
 import TypingText from "./UnfoldingCard";
 import React, { useState, useEffect, FC } from 'react';
-import UnfoldingCard from "./UnfoldingCard";
 type GoodWishesProps = {
   wishes: string[]; 
   colors?: string[]; 
