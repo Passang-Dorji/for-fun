@@ -3,11 +3,10 @@ import TypingText from "./UnfoldingCard";
 import React, { useState, useEffect, FC } from 'react';
 type GoodWishesProps = {
   wishes: string[]; 
-  colors?: string[]; 
   interval?: number; 
 };
 
-const GoodWishes: FC<GoodWishesProps> = ({ wishes, colors = [], interval = 3000 }) => {
+const GoodWishes: FC<GoodWishesProps> = ({ wishes, interval = 3000 }) => {
   const [currentWishIndex, setCurrentWishIndex] = useState<number>(0);
 
   useEffect(() => {

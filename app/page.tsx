@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <div>
-      <GoodWishes wishes={wishes} colors={colors} interval={5000} />
+      <GoodWishes wishes={wishes} interval={5000} />
     </div>
   );
 }
