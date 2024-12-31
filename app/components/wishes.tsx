@@ -18,7 +18,6 @@ const GoodWishes: FC<GoodWishesProps> = ({ wishes, colors = [], interval = 3000 
     return () => clearInterval(rotationInterval);
   }, [wishes, interval]);
 
-  const currentColor = colors[currentWishIndex % colors.length] || "#333"; 
 
   return (
     <div className="flex justify-center items-center  bg-gradient-to-tr from-indigo-500 from-10% via-sky-500 via-30% to-purple-500 to-90% min-h-screen">
