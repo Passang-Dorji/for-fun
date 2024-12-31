@@ -7,13 +7,6 @@ export default function Home() {
     
   ];
 
-  const colors: string[] = [
-    '#FF5733', 
-    '#33FF57', 
-    '#3357FF', 
-    '#FF33A1', 
-    '#F4D03F', 
-  ];
 
   return (
     <div>
